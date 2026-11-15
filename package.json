@@ -1,0 +1,10 @@
+{
+  "name": "zk-gatekeeper-agent",
+  "version": "1.0.0",
+  "description": "Proof Gatekeeper agent for zkVerify Agent Games",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": { "start": "node server.js", "test": "node test.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "snarkjs": "^0.7.5" }
+}
